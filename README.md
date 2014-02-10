@@ -9,6 +9,8 @@ We will review this in class as well.
     - [Chapter 5: Automating Map Production and Printing](http://proquest.safaribooksonline.com.libproxy.wustl.edu/book/-/9781849694445/programming-arcgis-10dot1-with-python-cookbook/ch05_html?uicode=washumo)  
     - [Chapter 6: Executing Geoprocessing Tools from Scripts](http://proquest.safaribooksonline.com.libproxy.wustl.edu/book/-/9781849694445/programming-arcgis-10dot1-with-python-cookbook/ch06_html?uicode=washumo)  
     - [Scheduling batch files to run at prescribed times from Appendix A](http://proquest.safaribooksonline.com.libproxy.wustl.edu/book/-/9781849694445/adot-automating-python-scripts/apas05_html?uicode=washumo)  
-    - [Rest of Appendix A](http://proquest.safaribooksonline.com.libproxy.wustl.edu/book/-/9781849694445/programming-arcgis-10dot1-with-python-cookbook/apa_html?uicode=washumo) as a reference only for above  
+    - [Rest of Appendix A](http://proquest.safaribooksonline.com.libproxy.wustl.edu/book/-/9781849694445/programming-arcgis-10dot1-with-python-cookbook/apa_html?uicode=washumo) as a reference only for above.  
+
+You can download digital materials for Programming ArcGIS 10.1 with Python Cookbook from [Dropbox](https://www.dropbox.com/sh/17yilv6oustbgfy/Juwwvsmlra)  
 
 We will also look at how to handling licensing and installation related functions, which are documented in the ArcGIS Desktop help starting at [CheckExtension](http://resources.arcgis.com/en/help/main/10.2/index.html#/CheckExtension/018v00000059000000/)  
