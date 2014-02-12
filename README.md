@@ -1,5 +1,4 @@
 # Geoprocessing
-==========
 ### Readings
   * [```unittest``` introduction](http://pythontesting.net/framework/unittest/unittest-introduction/)  
 We will review this in class as well.  
@@ -115,3 +114,7 @@ doc.saveAndClose()
  * Cannot create new date frames!
  * Cannot create new text elements!
 (But can clone existing MapDocument or Layer with ```saveCCopy``` or TextElment with ```clone```.)
+
+## Assignment 3 Links
+[Assignment](https://github.com/WUSTL-GIS-Programming-spring-2014/class_five/blob/master/Assignment3.py)  
+[Sample files on dropbox](https://www.dropbox.com/s/ewanlg0vhm9rkv7/Assignment3.zip)  
