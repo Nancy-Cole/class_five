@@ -6,7 +6,7 @@ import arcpy
 def main(mapdocument, districtlayer, districts):
     """Print new PDF for each district in list districts and return list of PDF paths."""
     pdfs = []
-    df = arcpy.mapping.ListDataFrames(mxd)[0]
+    df = arcpy.mapping.ListDataFrames(mapdocument)[0]
     #This is one method for handling this problem. You do not have to use this method.
     for district in districts:
         #Create query logic with string concatenation. Sample query: u'"SCHOOL_DIS" = \'BRENTWOOD\''.
@@ -20,7 +20,7 @@ def main(mapdocument, districtlayer, districts):
         #Clear the selection with arcpy.SelectLayerByAttribute_management.
         
         #Generate the PDF and add to the list pdfs.
-        pdfs.append(arcpy.mappingExportToPDF(mxd, outputpath)
+        pdfs.append(arcpy.mappingExportToPDF(mapdocument, outputpath)
     return pdfs
 
 if __name__ == '__main__':
