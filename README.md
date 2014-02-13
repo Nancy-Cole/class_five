@@ -37,7 +37,7 @@ arcpy.CheckExtension(u'3D')
 arcpy.AddZInformation_3d()
 arcpy.CheckOutExtension(u'3D')
 arcpy.AddZInformation_3d()
-arcpy.CheckINExtensino(u'3D')
+arcpy.CheckInExtension(u'3D')
 arcpy.AddZInformation_3d()
 
 ```
