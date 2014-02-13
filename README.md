@@ -43,6 +43,7 @@ arcpy.AddZInformation_3d()
 ```
 
 ### Geoprocessing
+[Sample files on dropbox](https://www.dropbox.com/s/ewanlg0vhm9rkv7/Assignment3.zip)  
 Our plan: Take only the public schools and divide them up into feature classes by school district
  1. Test for the existence of our file geodatabase using ```arcpy.Exists()```
     If absent, create with ```CreateFileGDB_management (out_folder_path, out_name, {out_version})```
