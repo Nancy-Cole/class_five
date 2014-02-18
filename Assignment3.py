@@ -20,7 +20,8 @@ def main(mapdocument, districtlayer, districts):
         #Clear the selection with arcpy.SelectLayerByAttribute_management.
         
         #Generate the PDF and add to the list pdfs.
-        pdfs.append(arcpy.mappingExportToPDF(mapdocument, outputpath)
+        arcpy.mapping.ExportToPDF(mapdocument, outputpath)
+        pdfs.append(outputpath)
     return pdfs
 
 if __name__ == '__main__':
